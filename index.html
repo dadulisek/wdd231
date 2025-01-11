@@ -6,13 +6,18 @@
     <title>WDD 231 | David Navratil</title>
     <meta name="author" content="David Navratil">
     <meta name="description" content="WDD 231, learning web development.">
+    <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="images/profile-pic.jpg" alt="profile picture">
         <h1>David Navratil</h1>
-        <nav>
+        <button id="menu" aria-label="Menu"></button>
+        <nav class="navigation">
             <a href="#">Home</a>
             <a href="#">Chamber</a>
             <a href="https://github.com/dadulisek">GitHub Profile</a>
@@ -30,9 +35,18 @@
         </section>
         <section>
             <h2>Prague, Czechia</h2>
+            <figure>
+                <img src="images/prague.jpg" alt="Prague Castle">
+                <figcaption>Prague Castle</figcaption>
+            </figure>
         </section>
         <section>
             <h2>Web and Computer Programming Certificate</h2>
+            <div>
+                <a href="#">All</a>
+                <a href="#">CSE</a>
+                <a href="#">WDD</a>
+            </div>
         </section>
     </main>
     <footer>
