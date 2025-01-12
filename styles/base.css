@@ -98,6 +98,32 @@ figure img{
     height: auto;
 }
 
+section nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+section nav a{
+    background-color: #000;
+    color: var(--accent-color);
+    padding: 0.25rem 1em;
+}
+
+#courses li{
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: solid #000 1px;
+}
+
+.completed{
+    background-color: var(--secondary-color);
+}
+
+.not-completed{
+    background-color: rgb(233, 233, 233);
+}
+
 footer{
     background-color: var(--primary-color);
     color: #fff;
