@@ -1,0 +1,79 @@
+[
+    {
+      "name": "Golden Prague Bakery",
+      "address": "Staroměstské náměstí 12, 110 00 Praha 1, Czechia",
+      "phone": "+420 222 222 222",
+      "website": "www.goldenpraguebakery.cz",
+      "icon": "golden_bakery_logo.png",
+      "membership_level": 1,
+      "description": "Traditional Czech pastries and breads, baked fresh daily.",
+      "established": 1995,
+      "owner": "Jan Novak"
+    },
+    {
+      "name": "Vltava River Cruises",
+      "address": "Dvořákovo nábřeží, 110 00 Praha 1, Czechia",
+      "phone": "+420 777 777 777",
+      "website": "www.vltavacruises.com",
+      "icon": "river_cruise_icon.svg",
+      "membership_level": 3,
+      "description": "Luxury river cruises on the Vltava, offering stunning views of Prague.",
+      "fleet_size": 10,
+      "captain": "Petr Svoboda"
+    },
+    {
+      "name": "Prague Art Gallery",
+      "address": "Husova 19/21, 110 00 Praha 1, Czechia",
+      "phone": "+420 666 666 666",
+      "website": "www.pragueartgallery.cz",
+      "icon": "art_gallery_logo.jpg",
+      "membership_level": 2,
+      "description": "Showcasing contemporary Czech art and international exhibitions.",
+      "exhibitions_per_year": 4,
+      "director": "Eva Dvorakova"
+    },
+    {
+      "name": "Bohemian Crystal Emporium",
+      "address": "Celetná 15, 110 00 Praha 1, Czechia",
+      "phone": "+420 555 555 555",
+      "website": "www.bohemiancrystal.cz",
+      "icon": "crystal_icon.png",
+      "membership_level": 2,
+      "description": "Fine Bohemian crystal and glass products, specializing in handcrafted items.",
+      "specialty": "Hand-blown glass",
+      "manager": "Karel Cerny"
+    },
+      {
+          "name": "Charles Bridge Souvenirs",
+          "address": "Karlův most, 110 00 Praha 1, Czechia",
+          "phone": "+420 444 444 444",
+          "website": "www.charlesbridgesouvenirs.cz",
+          "icon": "bridge_souvenir.jpg",
+          "membership_level": 1,
+          "description": "Wide selection of Prague souvenirs, including magnets, postcards, and local crafts.",
+          "product_count": 250,
+          "owner": "Jana Vesela"
+      },
+      {
+          "name": "Old Town Square Bistro",
+          "address": "Staroměstské náměstí 5, 110 00 Praha 1, Czechia",
+          "phone": "+420 333 333 333",
+          "website": "www.oldsquarebistro.cz",
+          "icon": "bistro_icon.svg",
+          "membership_level": 3,
+          "description": "Traditional Czech cuisine with a modern twist, located in the heart of Old Town Square.",
+          "chef": "Tomas Marek",
+          "menu_items": 30
+      },
+      {
+          "name": "Prague Castle Tours",
+          "address": "Pražský hrad, 119 08 Praha 1, Czechia",
+          "phone": "+420 999 999 999",
+          "website": "www.praguecastletours.com",
+          "icon": "castle_tour_logo.png",
+          "membership_level": 2,
+          "description": "Guided tours of Prague Castle, including St. Vitus Cathedral and Golden Lane.",
+          "tour_guides": 15,
+          "manager": "David Novak"
+      }
+  ]

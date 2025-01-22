@@ -6,6 +6,9 @@
     <title>Directory Prague Chamber of Commerce</title>
     <meta name="author" content="David Navratil">
     <meta name="description" content="Directory of Chamber of Commerce in Prague">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/getdata.js" defer></script>
     <!--Open Graphs-->
     <meta property="og:title" content="Directory Prague Chamber of Commerce">
     <meta property="og:type" content="website">
@@ -14,6 +17,38 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    
+    <header>
+        <div id="title">
+            <img src="images/logo.png" alt="Logo of Chamber of Commerce">
+            <h1>Prague Czech Republic</h1>
+            <h4>Chamber of Commerce</h4>
+        </div>
+        <button id="menu" aria-label="Menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+        </nav>
+    </header>
+    <main></main>
+    <footer>
+        <div id="chamber-info">
+            <h4>Prague Chamber of Commerce</h4>
+            <p>Sokolovská 105/76</p>
+            <p>Prague, Czech Republic</p>
+            <p>info@praguecoc.cz</p>
+            <p>+420 316 890 207</p>
+        </div>
+        <div id="personal-info">
+            <p>WDD 231 Class Project</p>
+            <p>David Navratil</p>
+            <p>
+                ©<span id="currentyear"></span>
+                Prague Chamber of Commerce
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
 </body>
 </html>
