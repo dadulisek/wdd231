@@ -7,7 +7,7 @@ async function fetchMembers() {
   function createMemberCard(member) {
     return `
       <div class="card">
-        <img src="${member.icon}" alt="${member.name}">
+        <img src="${member.icon}" alt="${member.name}" width="100px" height="auto" loading="lazy">
         <h3>${member.name}</h3>
         <p>${member.address}</p>
         <p>${member.phone}</p>
