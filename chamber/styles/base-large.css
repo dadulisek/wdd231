@@ -1,0 +1,23 @@
+@media screen and (min-width: 320px) {
+
+    header{
+        padding: 0;
+    }
+
+    header, main, footer{
+        max-width: 1000px;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+}
