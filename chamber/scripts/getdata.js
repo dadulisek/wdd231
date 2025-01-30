@@ -28,7 +28,7 @@ async function fetchMembers() {
     if (view === 'grid') {
         return `
           <div class="card">
-            <img src="${member.icon}" alt="${member.name}" width="100px" height="auto" loading="lazy">
+            <img src="${member.icon}" alt="${member.name}" width="100px" height="60px" loading="lazy">
             <h3>${member.name}</h3>
             <p>${member.address}</p>
             <p>${member.phone}</p>
