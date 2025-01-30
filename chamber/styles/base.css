@@ -73,7 +73,8 @@ footer{
 }
 
 /* Testing something */
-.container {
+
+/* .container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -104,4 +105,46 @@ footer{
     margin: 0 5px;
     padding: 0.5rem 1rem;
     cursor: pointer;
-  }
+  } */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* Grid View */
+.grid-view {
+    justify-content: center;
+}
+
+.grid-view .card {
+    width: 250px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* List View */
+.list-view {
+    display: block;
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #e8f6f8;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-item span,
+.list-item a {
+    flex: 1;
+    padding: 5px;
+    text-align: left;
+}
