@@ -72,6 +72,11 @@ footer{
     padding: 0.25rem;
 }
 
+main img{
+    width: 100px;
+    height: auto;
+}
+
 /* Testing something */
 
 /* .container {
