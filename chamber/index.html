@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory Prague Chamber of Commerce</title>
+    <title>Home Prague Chamber of Commerce</title>
     <meta name="author" content="David Navratil">
     <meta name="description" content="Directory of Chamber of Commerce in Prague">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-large.css">
     <script src="scripts/getdate.js" defer></script>
-    <!-- <script src="scripts/getdata.js" defer></script> -->
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/getdatasmall.js" defer></script>
     <!--Open Graphs-->
     <meta property="og:title" content="Directory Prague Chamber of Commerce">
     <meta property="og:type" content="website">
@@ -42,16 +43,29 @@
         </div>
         <div>
             <h2>Home</h2>
-            <section>
+            <section class="event-card">
                 <h3>Events</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </section>
-            <section>
-                <h3>Current Weather</h3>
-            </section>
-            <section>
-                <h3>Event Forecast</h3>
-            </section>
+            <div class="weather-container">
+                <section>
+                    <h3>Current Weather</h3>
+                    <div id="current-weather">
+                    </div>
+                </section>
+                <section>
+                    <h3>Weather Forecast</h3>
+                    <div id="weather-forecast"></div>
+                </section>
+            </div>
         </div>
+        <div id="home-screen"></div>
     </main>
     <footer>
         <div id="chamber-info">
