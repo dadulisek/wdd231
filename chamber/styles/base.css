@@ -374,3 +374,14 @@ button {
     text-decoration: none;
     cursor: pointer;
 }
+
+.membership-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-in-out; 
+}
+
+.membership-cards.active .membership-card {
+    opacity: 1;
+    transform: translateY(0); 
+}

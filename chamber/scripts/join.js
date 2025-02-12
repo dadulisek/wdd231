@@ -44,3 +44,7 @@
      // Redirect to the thank you page
      window.location.href = thankYouUrl;
  });
+
+  // Add class to trigger animation
+  const membershipCards = document.querySelector('.membership-cards');
+  membershipCards.classList.add('active');
