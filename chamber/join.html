@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Prague Chamber of Commerce</title>
+    <title>Join Prague Chamber of Commerce</title>
     <meta name="author" content="David Navratil">
     <meta name="description" content="Directory of Chamber of Commerce in Prague">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-large.css">
     <script src="scripts/getdate.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/getdatasmall.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <!-- <script src="scripts/weather.js" defer></script>
+    <script src="scripts/getdatasmall.js" defer></script> -->
     <!--Open Graphs-->
     <meta property="og:title" content="Directory Prague Chamber of Commerce">
     <meta property="og:type" content="website">
@@ -34,38 +35,98 @@
         </nav>
     </header>
     <main>
-        <div id="hero-container">
-            <picture>
-                <source srcset="images/hero-image-large.webp" media="(min-width: 320px)">
-                <img src="images/hero-image-small.webp" alt="Prague City" id="hero-image">
-            </picture>
-            <a href="join.html">Become a Member</a>
-        </div>
-        <div id="home-cards">
-            <h2>Home</h2>
-            <section class="event-card">
-                <h3>Events</h3>
-                <ul>
-                    <li>1st Tuesday of month Annual Meeting</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </section>
-            <div class="weather-container">
-                <section>
-                    <h3>Current Weather</h3>
-                    <div id="current-weather">
+        <div class="container">
+            <h1>Membership Application</h1>
+    
+            <form id="membershipForm" action="thankyou.html" method="get">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required autocomplete="given-name" title="Enter your first name">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required autocomplete="family-name" title="Enter your last name">
+                </div>
+                <div class="form-group">
+                    <label for="orgTitle">Organizational Title:</label>
+                    <input type="text" id="orgTitle" name="orgTitle" title="Enter your organizational title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@email.com" title="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="tel" id="phone" name="phone" required autocomplete="tel" title="Enter your mobile phone number">
+                </div>
+                <div class="form-group">
+                    <label for="organization">Organization Name:</label>
+                    <input type="text" id="organization" name="organization" required autocomplete="organization" title="Enter your organization's name">
+                </div>
+                <div class="form-group">
+                    <label>Membership Level:</label>
+                    <div class="membership-cards">
+                        <div class="membership-card">
+                            <h3>NP Membership</h3>
+                            <p>Free</p>
+                            <a href="#" data-modal-id="modal-np">Learn More</a>
+                        </div>
+                        <div class="membership-card">
+                            <h3>Bronze Membership</h3>
+                            <p>$50/year</p>
+                            <a href="#" data-modal-id="modal-bronze">Learn More</a>
+                        </div>
+                        <div class="membership-card">
+                            <h3>Silver Membership</h3>
+                            <p>$100/year</p>
+                            <a href="#" data-modal-id="modal-silver">Learn More</a>
+                        </div>
+                        <div class="membership-card">
+                            <h3>Gold Membership</h3>
+                            <p>$200/year</p>
+                            <a href="#" data-modal-id="modal-gold">Learn More</a>
+                        </div>
                     </div>
-                </section>
-                <section>
-                    <h3>Weather Forecast</h3>
-                    <div id="weather-forecast"></div>
-                </section>
+                </div>
+                <div class="form-group">
+                    <label for="description">Organization Description:</label>
+                    <textarea id="description" name="description" rows="5" title="Enter your organization's description"></textarea>
+                </div>
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+    
+                <button type="submit">Submit Application</button>
+            </form>
+    
+            <div id="modal-np" class="modal">
+                <div class="modal-content">
+                    <span class="close" data-close-modal>&times;</span>
+                    <h3>NP Membership</h3>
+                    <p>Benefits: [List benefits for NP Membership]</p>
+                </div>
             </div>
+            <div id="modal-bronze" class="modal">
+                <div class="modal-content">
+                    <span class="close" data-close-modal>&times;</span>
+                    <h3>Bronze Membership</h3>
+                    <p>Benefits: [List benefits for Bronze Membership]</p>
+                </div>
+            </div>
+            <div id="modal-silver" class="modal">
+                <div class="modal-content">
+                    <span class="close" data-close-modal>&times;</span>
+                    <h3>Silver Membership</h3>
+                    <p>Benefits: [List benefits for Silver Membership]</p>
+                </div>
+            </div>
+            <div id="modal-gold" class="modal">
+                <div class="modal-content">
+                    <span class="close" data-close-modal>&times;</span>
+                    <h3>Gold Membership</h3>
+                    <p>Benefits: [List benefits for Gold Membership]</p>
+                </div>
+            </div>
+    
         </div>
-        <div id="home-screen"></div>
     </main>
     <footer>
         <div id="chamber-info">
