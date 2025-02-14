@@ -1,0 +1,38 @@
+:root{
+    --primary-color: #AF8F3E;
+    --secondary-color: #222642;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--primary-color);
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+header{
+    background-color: var(--secondary-color);
+}
+
+h2{
+    background-color: var(--secondary-color);
+}
+
+#primary{
+    background-color: var(--primary-color);
+}
+
+#secondary{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+body{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
