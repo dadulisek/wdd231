@@ -17,3 +17,12 @@ body{
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+header, main, footer{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--secondary-color);
+}
