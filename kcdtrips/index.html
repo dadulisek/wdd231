@@ -7,9 +7,11 @@
     <meta name="author" content="David Navratil">
     <meta name="description" content="KCD trips, visit modern day bohemia.">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <script src="scripts/getdata.js" defer></script>
      <!--Open Graphs-->
      <meta property="og:title" content="KCD Trips">
      <meta property="og:type" content="website">
@@ -28,5 +30,12 @@
             <a href="#">Discover</a>
         </nav>
     </header>
+    <footer>
+        <p>
+            ©<span id="currentyear"></span>
+            - David Navratil - KCD Trips
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
