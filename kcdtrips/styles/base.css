@@ -82,6 +82,13 @@ footer{
     padding: 0.25rem;
 }
 
+/* Home */
+
+#home h2{
+	background-color: var(--secondary-color);
+	padding: 0.5rem;
+}
+
 #sasau-img{
 	width: 300px;
 	height: auto;
