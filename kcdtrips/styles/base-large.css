@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 321px){
     #menu{
         display: none;
     }
@@ -18,15 +18,5 @@
 
     section{
         margin: 0.5rem
-    }
-
-
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #certificate{
-        grid-column: 1/3;
     }
 }
