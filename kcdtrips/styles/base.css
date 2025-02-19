@@ -108,3 +108,68 @@ footer a{
 	width: 300px;
 	height: auto;
 }
+
+/* Form */
+
+#contact-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-grow: 1; /* Allow main to take up available space */
+}
+
+#contact-form form {
+    width: 500px; /* Adjust as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+#contact-form label {
+    display: block; /* Make labels stack on top of inputs */
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#contact-form input[type="submit"] {
+    background-color: var(--secondary-color); /* Green submit button */
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* #contact-form input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+} */
+
+#thank-you-message {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    flex-grow: 1;
+    text-align: center;
+}
+
+#thank-you-message div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 70%; /* Or adjust the width as needed */
+    max-width: 600px; /* Set a maximum width */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+#thank-you-message p {
+    margin-bottom: 10px;
+}

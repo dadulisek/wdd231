@@ -55,4 +55,14 @@
         display: flex;
         justify-content: space-around;   
     }
+
+    /* From */
+
+    #contact-form input[type="submit"]{
+        font-size: 1.2rem;
+    }
+
+    #thank-you-message div{
+        width: 50%;
+    }
 }

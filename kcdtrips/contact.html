@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch | KCD Trips</title>
+    <meta name="author" content="David Navratil">
+    <meta name="description" content="KCD trips, visit modern day bohemia.">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <script src="scripts/getdata.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+     <!--Open Graphs-->
+     <meta property="og:title" content="KCD Trips">
+     <meta property="og:type" content="website">
+     <meta property="og:image" content="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/08/kcd2-logo.jpg">
+     <meta property="og:url" content="https://dadulisek.github.io/wdd231/kcdtrips/index">
+     <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>KCD Trips | Get In Touch</h1>
+        <button id="menu" aria-label="Menu"></button>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="tips.html">Travel Tips</a>
+            <a href="contact.html">Get In Touch</a>
+            <a href="https://kingdomcomerpg.com/">Official Game Page</a>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-form">
+            <!-- <h2>Contact Us</h2> -->
+            <form id="myForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+                <p>Trip Type:</p>
+                <input type="radio" id="tips" name="trip_type" value="tips" required>
+                <label for="tips">Tips</label>
+                <input type="radio" id="guide" name="trip_type" value="guide">
+                <label for="guide">Guide</label><br><br>
+
+                <p>Preferred Regions:</p>
+                <input type="checkbox" id="sasau" name="region[]" value="sasau">
+                <label for="sasau">Sasau</label>
+                <input type="checkbox" id="kuttenberg" name="region[]" value="kuttenberg">
+                <label for="kuttenberg">Kuttenberg</label>
+                <input type="checkbox" id="trosky" name="region[]" value="trosky">
+                <label for="trosky">Trosky</label><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            ©<span id="currentyear"></span>
+            - David Navratil - KCD Trips
+        </p>
+        <p id="lastModified"></p>
+        <a href="attributions.html">Attributions Page</a>
+    </footer>
+</body>
+</html>
