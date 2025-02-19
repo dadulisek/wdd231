@@ -65,4 +65,18 @@
     #thank-you-message div{
         width: 50%;
     }
+
+    /* Tips */
+
+    .filter-buttons {
+        flex-direction: row; /* Horizontal (Wide View) */
+        flex-wrap: wrap; /* Allow wrapping */
+        justify-content: center; /* Center buttons horizontally */
+    }
+
+    .filter-buttons button {
+        width: auto; /* Allow buttons to shrink/grow (Wide View) */
+        margin: 5px; /* Consistent margin on all sides */
+        font-size: 1.2rem;
+    }
 }

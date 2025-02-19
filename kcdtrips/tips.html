@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
     <script src="scripts/getdata.js" defer></script>
+    <script src="scripts/tips.js" defer></script>
      <!--Open Graphs-->
      <meta property="og:title" content="KCD Trips">
      <meta property="og:type" content="website">
@@ -31,7 +32,13 @@
         </nav>
     </header>
     <main>
-        
+        <div class="filter-buttons">
+            <button id="showAllButton">Show All</button>
+            <button id="sasauButton">Sasau Region</button>
+            <button id="troskyButton">Trosky Region</button>
+            <button id="kuttenbergButton">Kuttenberg Region</button>
+        </div>    
+        <div class="card-container" id="locationsContainer"></div>
     </main>
     <footer>
         <p>

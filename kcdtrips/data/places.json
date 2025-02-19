@@ -1,0 +1,315 @@
+[
+    {
+        "name": "Sasau",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "town",
+        "description": "A smaller town compared to Rattay, but still an important location with its monastery.",
+        "image": "images/sasau.jpg",
+        "details": {
+          "history": "The monastery in Sasau plays a significant role in several quests, and the town itself offers various opportunities for exploration.",
+          "travel": "The real-world counterpart is Sázava in the Czech Republic.",
+          "game_connections": "Several quests related to the Church and the main storyline take place in Sasau."
+        }
+      },
+      {
+        "name": "Sasau Monastery",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "historical landmark",
+        "description": "A prominent monastery within the town of Sasau.",
+        "image": "images/sasau_monastery.jpg",
+        "details": {
+          "history": "The monastery is a key location for religious and political intrigue.",
+          "travel": "Part of the Sázava Monastery complex in the Czech Republic.",
+          "game_connections": "Many quests, including some main story quests, involve the monastery."
+        }
+      },
+      {
+        "name": "Silver Skalitz",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "historical landmark",
+        "description": "A once prosperous mining town, now mostly abandoned after the Cuman raid.",
+        "image": "images/silver_skalitz.jpg",
+        "details": {
+          "history": "Skalitz played a crucial role in the early game. It's where Henry's story begins and where he witnesses the tragic events that set him on his journey.",
+          "travel": "The real-world counterpart is near Kutná Hora in the Czech Republic. You can visit the ruins of the medieval settlement.",
+          "game_connections": "The prologue and early quests take place here. It's a key location for understanding Henry's motivations."
+        }
+      },
+      {
+        "name": "Vranik",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "place",
+        "description": "A Cuman camp.",
+        "image": "images/vranik.jpg",
+        "details": {
+          "history": "Vranik is a large Cuman camp that Henry infiltrates.",
+          "travel": "This location is fictional.",
+          "game_connections": "It is featured in the main story quests."
+        }
+      },
+      {
+        "name": "Rattay",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "town",
+        "description": "A large and bustling town, a center of trade and power in Bohemia.",
+        "image": "images/rattay.jpg",
+        "details": {
+          "history": "Rattay is a major hub in the game, where Henry interacts with many important characters and undertakes numerous quests.",
+          "travel": "The real-world inspiration is the town of Rataje nad Sázavou in the Czech Republic.",
+          "game_connections": "Many main story quests and side quests involve Rattay. It's a central location throughout the game."
+        }
+      },
+      {
+        "name": "Rattay Lower Castle (Pirkstein)",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "historical landmark",
+        "description": "The lower castle in Rattay, also known as Pirkstein.",
+        "image": "images/rattay_castle.jpg",
+        "details": {
+          "history": "The castle serves as the residence of the lords of Rattay and plays a role in various quests.",
+          "travel": "Part of the Rataje nad Sázavou castle complex.",
+          "game_connections": "Several quests involve interactions with the castle and its inhabitants."
+        }
+      },
+      {
+        "name": "Talmberg",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "historical landmark",
+        "description": "A fortified castle town, serving as a significant defensive point.",
+        "image": "images/talmberg.jpg",
+        "details": {
+          "history": "Talmberg is where Henry's family resided and plays a role in the early game's narrative.",
+          "travel": "The real-world inspiration is likely based on several castles in the region, such as Talmberk Castle.",
+          "game_connections": "It is featured in the prologue and the early game."
+        }
+      },
+      {
+        "name": "Uzhitz",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "village",
+        "description": "A small village with a church and surrounding fields.",
+        "image": "images/uzhitz.jpg",
+        "details": {
+          "history": "Uzhitz is often involved in side quests and exploration.",
+          "travel": "The real-world inspiration is Úžice in the Czech Republic.",
+          "game_connections": "Some side quests and activities, such as hunting, might lead you to Uzhitz."
+        }
+      },
+      {
+        "name": "Ledetchko",
+        "region": "Sasau",
+        "game": ["Kingdom Come: Deliverance"],
+        "type": "village",
+        "description": "A small village near Rattay.",
+        "image": "images/ledetchko.jpg",
+        "details": {
+          "history": "Ledetchko is where Henry can participate in tournaments.",
+          "travel": "The real-world inspiration is likely based on several villages in the region.",
+          "game_connections": "The village is known for its combat arena."
+        }
+      },
+      {
+        "name": "Trosky Castle",
+        "region": "Trosky",
+        "game": ["Kingdom Come: Deliverance II"],
+        "type": "historical landmark",
+        "description": "A ruined castle, a prominent landmark in the landscape.",
+        "image": "images/trosky.jpg",
+        "details": {
+          "history": "Trosky Castle is a location that can be visited and explored in the game.",
+          "travel": "The real-world counterpart is Trosky Castle in the Czech Republic.",
+          "game_connections": "It's a location that can be explored. It may be part of some side quests."
+        }
+      },
+        {
+        "name": "Troskowtz",
+        "region": "Trosky",
+        "game": ["Kingdom Come: Deliverance II"],
+        "type": "village",
+        "description": "A village near Trosky Castle.",
+        "image": "images/troskowtz.jpg",
+        "details": {
+          "history": "Troskowtz is a location that can be visited and explored in the game.",
+          "travel": "The real-world inspiration is likely based on several villages in the region.",
+          "game_connections": "It may be part of some side quests."
+        }
+      },
+        {
+        "name": "Rock Tower",
+        "region": "Trosky",
+        "game": ["Kingdom Come: Deliverance II"],
+        "type": "place",
+        "description": "A tall rock formation.",
+        "image": "images/rock_tower.jpg",
+        "details": {
+          "history": "Rock Tower is a location that can be visited and explored in the game.",
+          "travel": "The real-world inspiration is likely based on several rock formations in the region.",
+          "game_connections": "It may be part of some side quests."
+        }
+      },
+        {
+        "name": "Rock Tower Pond",
+        "region": "Trosky",
+        "game": ["Kingdom Come: Deliverance II"],
+        "type": "place",
+        "description": "A pond near the Rock Tower.",
+        "image": "images/rock_tower_pond.jpg",
+        "details": {
+          "history": "Rock Tower Pond is a location that can be visited and explored in the game.",
+          "travel": "The real-world inspiration is likely based on several ponds in the region.",
+          "game_connections": "It may be part of some side quests."
+        }
+    },
+  
+    {
+      "name": "Apollonia",
+      "region": "Trosky",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "place",
+      "description": "A small village.",
+      "image": "images/apollonia.jpg",
+      "details": {
+        "history": "Apollonia is a location that can be visited and explored in the game.",
+        "travel": "The real-world inspiration is likely based on several villages in the region.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Semin",
+      "region": "Trosky",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "historical landmark",
+      "description": "A village.",
+      "image": "images/semin.jpg",
+      "details": {
+        "history": "Semin is a location that can be visited and explored in the game.",
+        "travel": "The real-world inspiration is likely based on several villages in the region.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Zhelejov",
+      "region": "Trosky",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "village",
+      "description": "A village.",
+      "image": "images/zhelejov.jpg",
+      "details": {
+        "history": "Zhelejov is a location that can be visited and explored in the game.",
+        "travel": "The real-world inspiration is likely based on several villages in the region.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Kuttenberg (Kutná Hora)",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "city",
+      "description": "A major city known for its silver mines, an important economic and cultural center.",
+      "image": "images/kuttenberg.jpg",
+      "details": {
+        "history": "Kuttenberg is a large city in the game, featuring various quests and activities.",
+        "travel": "The real-world counterpart is Kutná Hora in the Czech Republic, a UNESCO World Heritage Site.",
+        "game_connections": "Several quests, including some related to the main storyline, take place in Kuttenberg."
+      }
+    },
+    {
+      "name": "Sedletz Monastery",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "historical landmark",
+      "description": "A significant monastery near Kuttenberg.",
+      "image": "images/sedletz_monastery.jpg",
+      "details": {
+        "history": "The Sedletz Monastery is an important religious site.",
+        "travel": "The real-world counterpart is the Sedlec Ossuary in Kutná Hora.",
+        "game_connections": "It may be involved in some quests."
+      }
+    },
+    {
+      "name": "Suchdol",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "historical landmark",
+      "description": "A village near Kuttenberg.",
+      "image": "images/suchdol.jpg",
+      "details": {
+        "history": "Suchdol is a location that can be visited and explored in the game.",
+        "travel": "The real-world inspiration is likely based on several villages in the region.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Devil's Den",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "village",
+      "description": "A rock formation.",
+      "image": "images/devils_den.jpg",
+      "details": {
+        "history": "Devil's Den is a location that can be visited and explored in the game.",
+        "travel": "The real-world inspiration is likely based on several rock formations in the region.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Italian Court",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "historical landmark",
+      "description": "A historical building in Kuttenberg.",
+      "image": "images/italian_court.jpg",
+      "details": {
+        "history": "The Italian Court is a location that can be visited and explored in the game.",
+        "travel": "The real-world counterpart is the Italian Court (Vlašský dvůr) in Kutná Hora.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Saint Barbara's Church",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "historical landmark",
+      "description": "A prominent church in Kuttenberg.",
+      "image": "images/st_barbara.jpg",
+      "details": {
+        "history": "Saint Barbara's Church is a location that can be visited and explored in the game.",
+        "travel": "The real-world counterpart is St. Barbara's Church in Kutná Hora.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Pschitoky",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "village",
+      "description": "A village.",
+      "image": "images/priseka.jpg",
+      "details": {
+        "history": "Příseka is a location that can be visited and explored in the game.",
+        "travel": "The real-world inspiration is likely based on several villages in the region.",
+        "game_connections": "It may be part of some side quests."
+      }
+    },
+    {
+      "name": "Opatowitz",
+      "region": "Kuttenberg",
+      "game": ["Kingdom Come: Deliverance II"],
+      "type": "village",
+      "description": "A village.",
+      "image": "images/opatovice.jpg",
+      "details": {
+        "history": "Opatovice is a location that can be visited and explored in the game.",
+        "travel": "The real-world inspiration is likely based on several villages in the region.",
+        "game_connections": "It may be part of some side quests."
+      }
+    }
+  ]

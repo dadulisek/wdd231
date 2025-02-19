@@ -173,3 +173,45 @@ footer a{
 #thank-you-message p {
     margin-bottom: 10px;
 }
+
+/* Tips */
+
+.card-container {
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+.filter-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Default: Vertical (Phone View) */
+    align-items: center; /* Center buttons horizontally */
+}
+
+.filter-buttons button {
+    margin: 5px 0; /* Adjust vertical margins */
+    padding: 8px 15px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make buttons take full width (Phone View) */
+}
