@@ -52,6 +52,13 @@
     .member-card img{
         width: 300px;
     }
+
+    .member-card img:hover {
+        transform: scale(1.05); /* Slightly enlarge the image */
+        filter: brightness(1.1); /* Slightly increase brightness */
+        cursor: pointer; /* Change cursor to indicate interactivity */
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow */
+    }
 }
 
 @media screen and (min-width: 1025px){
@@ -90,5 +97,12 @@
     .member-card button {
         align-self: flex-start; /* Align button to the left */
         margin-top: auto; /* Push button to the bottom */
+    }
+
+    .member-card img:hover {
+        transform: scale(1.05); /* Slightly enlarge the image */
+        filter: brightness(1.1); /* Slightly increase brightness */
+        cursor: pointer; /* Change cursor to indicate interactivity */
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow */
     }
 }
