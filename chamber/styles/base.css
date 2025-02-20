@@ -385,3 +385,76 @@ button {
     opacity: 1;
     transform: translateY(0); 
 }
+
+/* Basic Card Styling */
+.member-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Space between cards */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title Styling */
+.member-card h2 {
+    font-size: 1.2em; /* Slightly larger title */
+    margin-bottom: 0.5em;
+    color: #333; /* Darker text */
+}
+
+/* Image Styling */
+.member-card figure {
+    margin: 0 0 10px 0; /* Remove default figure margins */
+    text-align: center; /* Center the image */
+}
+
+.member-card img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    border-radius: 5px; /* Round image corners */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Image shadow */
+}
+
+/* Address and Description Styling */
+.member-card address, 
+.member-card p {
+    font-size: 0.9em;
+    margin-bottom: 0.8em;
+    color: #555; /* Slightly lighter text */
+}
+
+/* Button Styling */
+.member-card button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 0.6em 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.member-card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Query for Small Screens (adjust breakpoint as needed) */
+@media (max-width: 768px) { 
+    .member-card {
+        padding: 15px; /* Increase padding on small screens */
+    }
+
+    .member-card h2 {
+        font-size: 1.4em; /* Larger title on small screens */
+    }
+
+    .member-card address,
+    .member-card p,
+    .member-card button {
+        font-size: 1em; /* Adjust font size for better readability */
+    }
+}

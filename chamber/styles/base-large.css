@@ -47,3 +47,48 @@
     /*Join*/
     
 }
+
+@media screen and (min-width: 641px) {
+    .member-card img{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    #members-container {  /* Target the container */
+        display: grid; /* Enable CSS Grid */
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Responsive columns */
+        gap: 20px; /* Spacing between grid items */
+    }
+
+    .member-card {
+        flex-direction: column; /* Back to vertical stacking within each card */
+        align-items: stretch; /* Stretch items to fill card width */
+        padding: 20px;
+    }
+
+    .member-card h2 {
+        font-size: 1.6em;
+        margin-bottom: 10px;
+    }
+
+    .member-card figure {
+        margin: 0 0 15px 0;
+    }
+
+    .member-card img {
+        max-width: 100%; /* Image fills card width */
+        height: auto;
+    }
+
+    .member-card address,
+    .member-card p {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    .member-card button {
+        align-self: flex-start; /* Align button to the left */
+        margin-top: auto; /* Push button to the bottom */
+    }
+}
