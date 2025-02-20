@@ -39,3 +39,33 @@ async function fetchMemberData() {
   }
   
   initialize();
+
+
+  // Function to display the appropriate visit message
+function displayVisitMessage() {
+    const lastVisit = localStorage.getItem('lastVisit');
+    const messageArea = document.getElementById('visit-message'); // Get the message area element
+  
+    if (!lastVisit) { // First visit
+      messageArea.textContent = "Welcome! Let us know if you have any questions.";
+    } else {
+      const lastVisitDate = new Date(lastVisit);
+      const currentDate = new Date();
+      const timeDifference = currentDate.getTime() - lastVisitDate.getTime();
+      const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+  
+      if (daysDifference < 1) { // Less than a day
+        messageArea.textContent = "Back so soon! Awesome!";
+      } else if (daysDifference === 1) { // 1 day
+        messageArea.textContent = "You last visited 1 day ago.";
+      } else { // More than 1 day
+        messageArea.textContent = `You last visited ${daysDifference} days ago.`;
+      }
+    }
+  
+    // Update the last visit date in localStorage
+    localStorage.setItem('lastVisit', new Date().toString());
+  }
+  
+  // Call the function when the page loads
+  window.addEventListener('DOMContentLoaded', displayVisitMessage);
